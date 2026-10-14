@@ -9,7 +9,7 @@ Probing, activation patching, and sparse autoencoder (SAE) analysis of Qwen3-1.7
 
 ## Data and model
 
-Source: monoamide extraction data compiled by L. Augustine ([ACS Sustainable Chem. Eng. 2024, 12, 16692](https://dx.doi.org/10.1021/acssuschemeng.4c06166)), as reprocessed in the SeparationLLM repo [SeparationLLM](https://github.com/jschrier/SeparationLLM/tree/main).
+Source: monoamide extraction data compiled by L. Augustine ([ACS Sustainable Chem. Eng. 2024, 12, 16692](https://dx.doi.org/10.1021/acssuschemeng.4c06166)), as reprocessed in [SeparationLLM](https://github.com/jschrier/SeparationLLM/tree/main).
 
 *Example (one line of the chat-format JSONL):*
 
@@ -63,7 +63,7 @@ Fine-tuning results:
 
 3. Counterfactual analysis:
    - Changed the HNO<sub>3</sub> concentration to 1 M or 6 M to see if D increases as the concentration increases.
-   - Cosine distance increased a lot between layers 17–23.
+   - Cosine distance increased a lot between layers 18–23.
    ![Cosine Distance - 1M vs 6M HNO3](figures/fig9_1M_vs_6M_activation_cos_dist_100_sample.png)
 4. Patching:
    - The activation from the HNO<sub>3</sub> 6 M run was patched into the 1 M run.
